@@ -1,13 +1,9 @@
 {
-    "name": "edtunnel",
-    "version": "1.0.0",
-    "description": "Cloudflare VLESS Tunnel",
-    "main": "_worker.js",
-    "scripts": {
-        "start": "wrangler dev",
-        "deploy": "wrangler deploy"
-    },
-    "devDependencies": {
-        "wrangler": "^3.0.0"
-    }
+  "name": "edtunnel",
+  "version": "1.0.0",
+  "description": "VLESS Tunnel",
+  "main": "_worker.js",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
 }
